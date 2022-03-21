@@ -1,0 +1,70 @@
+@charset "utf-8";
+@import url(common/reset.css);
+
+.section{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.section .sec-con{
+    flex: 0 1 1200px;
+    height:600px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.section .sec-con .gallery{
+   width: 500%;
+   height: 600px;
+   position: absolute;
+}
+.section .sec-con .gallery>ul{
+    display: flex;
+    justify-content: center;
+}
+.section .sec-con .gallery>ul>li{
+    width: 20%;
+    height: 600px;
+    border: 1px solid brown;
+}
+
+.section .sec-con .center-btn{
+    position: absolute;
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    margin-top:-20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.section .sec-con .center-btn span.arrow{
+   width: 40px;
+   height: 40px;
+   background-color: #000000;
+   border-radius: 50%;
+}
+
+.section .sec-con .bcon{
+    width:100% ;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.section .sec-con .bcon .items>ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  
+}
+.bcon .items>ul>li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: burlywood;
+}
+
